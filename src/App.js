@@ -1,20 +1,11 @@
 import "./App.css";
-import axios from "axios";
-import ClipLoader from "react-spinners/ClipLoader";
+import Weather from "./Weather";
 
-function App() {
+export default function App() {
   return (
-    <div className="sweet-loading">
-      <h1>React Weather App</h1>
-      <ClipLoader
-        color="blue"
-        loading={true}
-        size={150}
-        aria-label="Loading Spinner"
-        data-testid="loader"
-      />
+    <div className="App">
+      <h1>React Week 3 Weather Search Engine</h1>
+      <Weather />
     </div>
   );
 }
-
-export default App;
