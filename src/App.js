@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import axios from "axios";
+import { useState, CSSProperties } from "react";
+import ClipLoader from "react-spinners/ClipLoader";
+
+const override: CSSProperties = {
+  display: "block",
+  margin: "0 auto",
+  borderColor: "red",
+};
 
 function App() {
+  let [loading, setLoading] = useState(true);
+  let [color, setColor] = useState("#ffffff");
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="sweet-loading">
+      <button onClick={() => setLoading(!loading)}>Toggle Loader</button>
+      <input
+        value={color}
+        onChange={(input) => setColor(input.target.value)}
+        placeholder="Color of the loader"
+      />
+
+      <ClipLoader
+        color="blue"
+        loading={true}
+        cssOverride={override}
+        size={150}
+        aria-label="Loading Spinner"
+        data-testid="loader"
+      />
     </div>
   );
 }
