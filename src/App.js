@@ -6,6 +6,24 @@ export default function App() {
     <div className="App">
       <h1>React Week 3 Weather Search Engine</h1>
       <Weather />
+      <br />
+      <footer>
+        <a
+          href="https://github.com/Shauna845/react-weather-app"
+          target="_blank"
+        >
+          {" "}
+          Open-source code{" "}
+        </a>{" "}
+        by{" "}
+        <a
+          href="https://www.shecodes.io/graduates/65141-shauna-bratten"
+          target="_blank"
+        >
+          {" "}
+          Shauna Bratten{" "}
+        </a>
+      </footer>
     </div>
   );
 }
