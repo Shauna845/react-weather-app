@@ -11,6 +11,7 @@ export default function App() {
         <a
           href="https://github.com/Shauna845/react-weather-app"
           target="_blank"
+          rel="noreferrer"
         >
           {" "}
           Open-source code{" "}
@@ -19,6 +20,7 @@ export default function App() {
         <a
           href="https://www.shecodes.io/graduates/65141-shauna-bratten"
           target="_blank"
+          rel="noreferrer"
         >
           {" "}
           Shauna Bratten{" "}
