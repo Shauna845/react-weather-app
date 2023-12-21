@@ -15,7 +15,7 @@ export default function App() {
           {" "}
           Open-source code{" "}
         </a>{" "}
-        by{" "}
+        created by{" "}
         <a
           href="https://www.shecodes.io/graduates/65141-shauna-bratten"
           target="_blank"
