@@ -9,12 +9,12 @@ export default function App() {
         <Weather />
         <br />
         <footer>
+          This project is built with{" "}
           <a
             href="https://github.com/Shauna845/react-weather-app"
             target="_blank"
             rel="noreferrer"
           >
-            {" "}
             Open-source code{" "}
           </a>{" "}
           created by{" "}
