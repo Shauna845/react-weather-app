@@ -22,10 +22,10 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": "react-app"
+  },
+  "engines": {
+    "node": ">=16.0.0 <17.0.0"
   },
   "browserslist": {
     "production": [
