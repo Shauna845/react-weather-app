@@ -2,6 +2,7 @@
   font-family: serif;
   max-width: 600px;
   margin: 30px auto;
+  background: linear-gradient(to top, #97d9e1 0%, #d9afd9 100%);
 }
 .App footer {
   font-size: 11px;
